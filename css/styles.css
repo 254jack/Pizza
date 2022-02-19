@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+}
+body{
+    background-image: url(../images/background.jpeg);
+    position: relative;
+}
+p{
+    text-align: center;
+    color:white;
+}
+#logo{
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    float: right;
+    margin-top: -115px;
+    margin-right: 10px;
+}
+#img1{
+    width: 220px;
+    margin-left: 40px;
+}
+#img2{
+width: 198px;
+}
+#img3{
+    width: 220px;
+}
+#img4{
+        width: 220px;
+}
+label{
+    border: 1px solid grey;
+    background-color:white;
+    color: rgba(0, 0, 7, 0.925);
+    size: 70px;
+}
+#submit{
+    border-radius: 10px;
+    cursor:context-menu();
+}
+.back-img{
+    background-image: url(../images/nyampiza.jpeg);
+}
+.input{
+    background-image: url(../imges/yellow.jpeg);
+}
+.size{
+    margin: 5%;
+    text-align: center;
+}
+.crust{
+    margin-bottom: 10%;
+    margin-left: 120px;
+
+}
+.total{
+    text-align: center;
+}
+#num-pizza{
+    width: 40px;
+    height: 20px;
+}
+.num-pizza{
+    transform: translate(-100px,10px);
+    margin-top: 10px;
+}
+#summary{
+    text-align: center;
+    color: rgb(32, 216, 87);
+    font-weight: bolder;
+}
+#totals{
+    text-align: center;
+    color: greenyellow;
+    font-weight: bold;
+    font-style: italic;
+}
+#location{
+    display:none;
+}
+.delivery{
+    text-align: center;
+}

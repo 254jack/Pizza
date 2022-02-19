@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA WORLD</title>
+
+</head>
+
+<body>
+    <h1>PIZZA-WORLD</h1>
+    <p>Welcome to Pizza World where you can choose your favourite pizza and smack it at your favourite spot.<br>We also
+        have derivery services at a fair price.Older your pizza and it will reach you fast.</P>
+    <img src="images/logopizza.png" id="logo">
+    <div class="img-pizza">
+        <img src="images/pizza.jpeg" id="img1">
+        <img src="images/pizzzza.jpeg" id="img2">
+        <img src="images/pza.jpeg" id="img3">
+        <img src="images/italian-pizza.jpeg" id="img4">
+    </div>
+    <div class="input">
+        <div class="size">
+            <input type="text" id="name" placeholder="Enter your name">
+            <label for="type of pizza" id="label">choose according to size</label>
+            <select name="select" id="size">
+                <option value="" selected disabled hidden>select here</option>
+                <option value="large">large @800</option>
+                <option value="medium">medium @700</option>
+                <option value="small">small @600</option>
+            </select>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="crust">
+                    <label class="crust">choose Crust:</label>
+                    <select name="select" id="crust">
+                        <option value="" selected disabled hidden>select here</option>
+                        <option value="crispy">crispy @100</option>
+                        <option value="stuffed">stuffed @80</option>
+                        <option value="glutenFree">glutenFree @60</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="toppings">
+                    <label class="toppings">choose toppings:</label>
+                    <select name="select" id="toppings">
+                          <option value="" selected disabled hidden>select here</option>
+                        <option value="mushroom">mushroom @120</option>
+                        <option value="cheese">extraCheese @150</option>
+                        <option value="sausages">sausages @160</option>
+                        <option value="onion">onion @80</option>
+                        <option value="greenPepper">greenPepper @70</option>
+                        <option value="freshGarlic">freshGarlic @90</option>
+                    </select>
+                </div>
+
+
+                <div class="num-pizza">
+                    <button id="add">Add to cart</button>
+                </div>
+            </div>
+            <div class="summary">
+                <h2 id="summary">SUMMARY</h2>
+                <p></p>
+
+            </div>
+            <div id="totals">
+                <hr>
+                <p></p>
+            </div>
+            <div class="delivery">
+                <div id="deliverys">
+                    <input type="checkbox" name="delivery" id="delivery">
+                    <label id="deliverylb">Get Home Deliverly @KES.150 around Nairobi</label>
+                    <br>
+                    <input type="text" name="location" id="location" placeholder="Enter your Location" required>
+                </div>
+                <button id="placeOrder">Place Order</button>
+                <button id="clear">clear</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
